@@ -56,5 +56,7 @@ plot(freqstamp,newfrf);
 title(['After load cycle:',num2str(cycle)]);
 xlabel('Frequency')
 ylabel('Magnitude') 
+
+PLOTPEAKS(finput,foutput);
 end 
 
